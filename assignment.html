@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset style="background-color: #0774a6">
+        <legend style="background-color: #4bbef4">Personal Data</legend>
+        <br />
+        <fieldset style="background-color: #8adaff">
+          <legend style="background-color: #4bbef4">
+            <br /><br />Your Name <br /><br /><br />
+          </legend>
+          <br /><br />
+          <table>
+            <tr>
+              <td><label for="fname">First Name </label></td>
+              <td><label for="fname">:</label></td>
+              <td>
+                <input
+                  id="fname"
+                  name="fname"
+                  type="text"
+                  placeholder="ex islam"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="lname">Last Name </label></td>
+              <td><label for="lname">:</label></td>
+              <td>
+                <input
+                  id="lname"
+                  name="lname"
+                  type="text"
+                  placeholder="ex mahmoud"
+                />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+        <br /><br /><br />
+
+        <table>
+          <tr>
+            <td><label for="yname">Your Name</label></td>
+            <td><label for="yname">:</label></td>
+            <td><input id="yname" name="yname" type="text" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email</label></td>
+            <td><label for="email">:</label></td>
+            <td><input id="email" name="email" type="email" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="pass">Password</label></td>
+            <td><label for="pass">:</label></td>
+            <td><input id="pass" name="password" type="password" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="re-pass">re-password</label></td>
+            <td><label for="re-pass">:</label></td>
+            <td><input id="re-pass" name="re-pass" type="password" /></td>
+          </tr>
+        </table>
+
+        <br /><br />
+
+        <table>
+          <tr>
+            <td><input id="male" name="gender" value="male" type="radio" /></td>
+            <td><label for="male">male</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input id="female" name="gender" value="female" type="radio" />
+            </td>
+            <td><label for="female">female</label></td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+
+        <table>
+          <tr>
+            <td>
+              <input
+                id="student"
+                type="checkbox"
+                name="status"
+                value="student"
+              />
+            </td>
+            <td><label for="student">Student</label></td>
+          </tr>
+          <tr>
+            <td>
+              <input
+                id="graduated"
+                type="checkbox"
+                name="status"
+                value="graduated"
+              />
+            </td>
+            <td><label for="graduated">Graduated</label></td>
+          </tr>
+        </table>
+
+        <br /><br />
+
+        <table>
+          <tr>
+            <td>
+              <select name="cars" id="cars">
+                <optgroup label="German Cars">
+                  <option value="bmw">BMW</option>
+                  <option value="audi">Audi</option>
+                  <option value="porsche">Porsche</option>
+                </optgroup>
+
+                <optgroup label="Chinese Cars">
+                  <option value="geely">Geely</option>
+                  <option value="chery">Chery</option>
+                  <option value="mg">MG</option>
+                </optgroup>
+                <optgroup disabled label="Korean Cars">
+                  <option value="hyundai">Hyundai</option>
+                  <option value="sonata">Sonata</option>
+                  <option value="kia">Kia</option>
+                </optgroup>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button type="submit">
+                <img src="./img/submit.png" alt="submit button" width="100px" />
+              </button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>
